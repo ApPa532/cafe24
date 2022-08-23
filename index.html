@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카페24</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/svg" sizes="16x16" href="./img/favi.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/media.css">
+    <link rel="stylesheet" type="text/css" href="./css/media2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-1.9.0.min.js"></script>
+    <script src="./js/jquery-1.9.1.min.js"></script>
+    <script src="./js/jquery.easing.1.3.min.js"></script>
+    <script src=" ./js/prefixfree.min.js"> </script>
+    <script src="./js/script.js"></script>
+    <script src="./js/media.js"></script>
+    <script src="./js/media2.js"></script>
+
+</head>
+
+<body>
+
+    <header class="cf">
+        <div id="searchBox">
+
+            <div id="searchBox_wrap">
+                <a class="search_logo" href="#;"><img src="./img/logo_white.svg" alt="검색로고" width="214"></a>
+                <a class="search_cancel" href="#;"><img src="./img/search_cancel.svg" alt="취소">
+                    <img src="./img/searchm_cancel.svg" alt="취소m">
+                </a>
+
+
+
+                <div id="search_area">
+                    <form id="form">
+                        <input type="text" class="text" id="search_total" name="search" title="검색어를 입력해주세요."
+                            placeholder="검색어를 입력해주세요.">
+                        <input type="image" class="image" src="./img/search3.svg" alt="검색">
+                    </form>
+
+                </div>
+                <ul id="search_ex">
+                    <li><a href="#none">쇼핑몰 만들기</a></li>
+                    <li><a href="#none">쇼핑몰 디자인</a></li>
+                    <li><a href="#none">글로벌 진출</a></li>
+                    <li><a href="#none">광고마케팅</a></li>
+                    <li><a href="#none">에디봇</a></li>
+                    <li><a href="#none">마켓통합관리</a></li>
+                    <li><a href="#none">창업센터</a></li>
+                </ul>
+            </div>
+
+
+            <div id="searchBox_shadow"></div>
+        </div>
+        <nav class="cf">
+            <h1 class="logo cf">
+                <a class="plogo" href="./index.html">
+                    <img src="./img/Cafe24_logo.png" width="217" alt="카페24로고">
+                    <span class="hidden">카페24</span>
+                </a>
+                <a class="m_logo" href="./index.html">
+                    <img src="./img/Cafe24_logo.png" width="180" alt="카페24로고">
+                    <span class="hidden">카페24</span>
+                </a>
+            </h1>
+
+
+            <ul class="main cf">
+                <li><a href="#;">쇼핑몰</a>
+                    <ul class="sub1">
+                        <li>
+                            <dl>
+                                <dt><a href="#;">쇼핑몰 구축</a></dt>
+                                <dd><a href="#;">무료 쇼핑몰</a></dd>
+                                <dd><a href="#;">마켓 판매</a></dd>
+                                <dd><a href="#;">글로벌 쇼핑몰</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#;">판매</a></dt>
+                                <dd><a href="#;">도메인 등록</a></dd>
+                                <dd><a href="#;">쇼핑몰 디자인</a></dd>
+                                <dd><a href="#;">상품등록</a></dd>
+                                <dd><a href="#;">주문/배송/재고</a></dd>
+                                <dd><a href="#;">쇼핑몰 기능확장</a></dd>
+                                <dd><a href="#;">창업공간</a></dd>
+                                <dd><a href="#;">창업교육</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#;">매출 성장</a></dt>
+                                <dd><a href="#;">페이스북 숍스</a></dd>
+                                <dd><a href="#;">구글 판매</a></dd>
+                                <dd><a href="#;">검색엔진최적화</a></dd>
+                                <dd><a href="#;">프로모션/이벤트</a></dd>
+                                <dd><a href="#;">SNS마케팅</a></dd>
+                                <dd><a href="#;">타깃마케팅</a></dd>
+                                <dd><a href="#;">통계/분석</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#;">운영</a></dt>
+                                <dd><a href="#;">글로벌 진출</a></dd>
+                                <dd><a href="#;">상품공급/사입</a></dd>
+                                <dd><a href="#;">고객상담/운영대행</a></dd>
+                                <dd><a href="#;">물류대행</a></dd>
+                                <dd><a href="#;">금융정보</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </li> <!-- 쇼핑몰 -->
+                <li><a href="#;">마케팅</a>
+                    <ul class="sub2">
+                        <li>
+                            <dl>
+                                <dt><a href="#;">국내 마케팅</a></dt>
+                                <dd><a href="#;">글로벌 마케팅</a></dd>
+                                <dd><a href="#;">영어권 마케팅</a></dd>
+                                <dd><a href="#;">일본 마케팅</a></dd>
+                                <dd><a href="#;">중화권 마케팅</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </li> <!-- 마케팅 -->
+                <li><a href="#;">호스팅</a>
+                    <ul class="sub3">
+                        <li>
+                            <dl>
+                                <dt><a href="#;">웹호스팅</a></dt>
+                                <dd><a href="#;">스페셜호스팅</a></dd>
+                                <dd><a href="#;">서버호스팅/IDC</a></dd>
+                                <dd><a href="#;">클라우드</a></dd>
+                                <dd><a href="#;">GPU호스팅/AI</a></dd>
+                                <dd><a href="#;">도메인</a></dd>
+                                <dd><a href="#;">웹메일/그룹웨어</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </li> <!-- 호스팅 -->
+                <li><a href="#;">추천서비스</a>
+                    <ul class="sub4">
+                        <li>
+                            <dl>
+                                <dt><a href="#;">업종별</a></dt>
+                                <dd><a href="#;">패션</a></dd>
+                                <dd><a href="#;">뷰티</a></dd>
+                                <dd><a href="#;">푸드</a></dd>
+                                <dd><a href="#;">가구/인테리어</a></dd>
+                                <dd><a href="#;">엔터테인먼트</a></dd>
+                                <dd><a href="#;">여행/숙박</a></dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#;">규모별</a></dt>
+                                <dd><a href="#;">엔터프라이즈</a></dd>
+                                <dd><a href="#;">인플루언서</a></dd>
+                                <dd><a href="#;">스타트업/중소기업</a></dd>
+                                <dd><a href="#;">1인창업자</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </li> <!-- 추천서비스 -->
+            </ul> <!-- .main -->
+
+
+
+            <ul class="customer cf">
+                <li><a href="#;">고객지원</a></li>
+                <li><a href="#;">로그인</a></li>
+                <li class="search_start"><a href="#;"><img src="./img/search1.png"
+                            onmouseover="this.src='./img/search2.png'" onmouseout="this.src='./img/search1.png'"
+                            width="25" alt="검색"></a>
+
+                </li>
+                <li><a href="#;"><img src="./img/global1.png" width="25" onmouseover="this.src='./img/global2.png'"
+                            onmouseout="this.src='./img/global1.png'" alt="언어별 사이트"></a></li>
+            </ul> <!-- .customer -->
+            <ul id="main_t">
+                <li class="search_start"><a href="#none"><img src="./img/search1.png"
+                            onmouseover="this.src='./img/search2.png'" onmouseout="this.src='./img/search1.png'"
+                            width="35" alt="검색"></a></li>
+                <li><a href="#none"><img src="./img/global1.png" onmouseover="this.src='./img/global2.png'"
+                            onmouseout="this.src='./img/global1.png'" width="35" alt="언여별사이트"></a></li>
+                <li class="menu_t"><a href="#none" id="im1"><img src="./img/menu.png" width="35"
+                            onmouseover="this.src='./img/menu2.png'" onmouseout="this.src='./img/menu1.png'"
+                            alt="img"></a></li>
+                <li class="menu_t2"><a href="#none" id="im2"><img src="./img/cancel.png"
+                            onmouseover="this.src='./img/cancel2.png'" onmouseout="this.src='./img/cancel.png'"
+                            width="30" alt="img"></a></li>
+            </ul>
+        </nav>
+        <ul class="main_tt cf">
+            <li>
+                <div class="border"><a href="#;">쇼핑몰</a></div>
+                <ul class="sub_t1">
+
+                    <li><a href="#none">쇼핑몰 구축</a></li>
+                    <li><a href="#none">판매</a></li>
+                    <li><a href="#none">매출 성장</a></li>
+                    <li><a href="#none">운영</a></li>
+
+                </ul>
+            </li> <!-- 쇼핑몰 -->
+            <li>
+                <div class="border"><a href="#;">마케팅</a></div>
+
+            </li> <!-- 마케팅 -->
+            <li>
+                <div class="border"><a href="#;">호스팅</a></div>
+
+            </li> <!-- 호스팅 -->
+            <li>
+                <div class="border"><a href="#;">추천서비스</a></div>
+                <ul class="sub_t4">
+                    <li><a href="#;">업종별</a></li>
+                    <li><a href="#;">규모별</a></li>
+                </ul>
+            </li> <!-- 추천서비스 -->
+        </ul> <!-- .main_tt -->
+    </header>
+
+    <section class="cf">
+
+
+        <div id="main_banner">
+
+
+
+            <div id="main_visual">
+                <ul>
+                    <li class="visual_0">
+                        <h2>AI, 빅데이터 기술로 <br> 성공을 이끄는 카페24</h2>
+                        <div id="h3_wrap">
+                            <h3>쇼핑몰 운영, 누구나 쉽고 편하게!
+
+                            </h3>
+                            <button class="banner_button1" type="button" onclick="location.href='#;'">쇼핑몰 만들기</button>
+                        </div>
+                    </li>
+                    <li class="visual_1">
+                        <h2>창의만 있다면<br>누구나 부담없이 무료로</h2>
+                        <div id="h3_wrap">
+                            <h3>200만 쇼핑몰의 선택, 카페24
+
+                            </h3>
+                            <button class="banner_button1" type="button" onclick="location.href='#;'">쇼핑몰 만들기</button>
+                        </div>
+                    </li>
+                    <li class="visual_2">
+                        <h2>온라인 쇼핑몰 <br> 마케팅의 성공 지름길</h2>
+
+                        <button class="banner_button2" type="button" onclick="location.href='#;'">마케팅센터</button>
+
+                    </li>
+                    <li class="visual_3">
+                        <h2>145만 고객이 사용하는<br>국내 1위 온라인 비즈니스 인프라</h2>
+
+                        <button class="banner_button2" type="button" onclick="location.href='#;'">호스팅센터</button>
+
+                    </li>
+                    <li class="visual_4">
+                        <h2>브랜드가 돋보이는 트렌디한 디자인 <br> 패션 오픈마켓 연동도 한 번에</h2>
+
+                        <button class="banner_button2" type="button" onclick="location.href='#;'">추천서비스</button>
+
+                    </li>
+                </ul>
+                <div class="bannerBox"></div>
+            </div>
+            <ul id="buttonList">
+                <li class="on"><a href="#none">배너1</a></li>
+                <li><a href="#none">배너2</a></li>
+                <li><a href="#none">배너3</a></li>
+                <li><a href="#none">배너4</a></li>
+                <li><a href="#none">배너5</a></li>
+            </ul>
+
+
+        </div>
+
+        <div id="content1">
+            <ul>
+                <li><a href="#;">국내 마케팅</a></li>
+                <li><a href="#;">글로벌 마케팅</a></li>
+                <li><a href="#;">영어권 마케팅</a></li>
+                <li><a href="#;">일본 마케팅</a></li>
+                <li><a href="#;">중화권 마케팅</a></li>
+            </ul>
+
+
+            <img class="content_img1" src="./img/circle.png" alt="원">
+            <img class="content_img2" src="./img/contents.png" alt="컨텐츠1 손">
+            <button class="content_button1" type="button">마케팅</button>
+            <h2>쇼핑몰 마케팅 성공의 지름길,<br>카페24 마케팅센터</h2>
+            <p><a href="#;">자세히보기&nbsp;&nbsp;<img src="./img/more.png" alt="자세히보기"></a></p>
+        </div>
+        <div id="content1m">
+
+            <div id="content1m_btn">
+                <ul class="slide">
+                    <li><a href="#none">국내 마케팅</a></li>
+                    <li><a href="#none">글로벌 마케팅</a></li>
+                    <li><a href="#none">영어권 마케팅</a></li>
+                    <li><a href="#none">일본 마케팅</a></li>
+                    <li><a href="#none">중화권 마케팅</a></li>
+                </ul>
+            </div>
+            <!-- <div>
+                    <a href="#none">국내 마케팅</a>
+                </div>
+                <div>
+                    <a href="#none">글로벌 마케팅</a>
+                </div>
+                <div>
+                    <a href="#none">영어권 마케팅</a>
+                </div>
+                <div>
+                    <a href="#none">일본 마케팅</a>
+                </div>
+                <div>
+                    <a href="#none">중화권 마케팅</a>
+                </div> -->
+
+
+
+
+            <img class="content_imgm1" src="./img/circle.png" alt="원">
+            <img class="content_imgm2" src="./img/contents.png" alt="컨텐츠1 손">
+
+            <h2>쇼핑몰 마케팅 성공의 지름길,<br>카페24 마케팅센터</h2>
+            <p><a href="#;">자세히보기&nbsp;&nbsp;<img src="./img/more.png" alt="자세히보기"></a></p>
+
+            <div class="prev2_2">
+                <img src="./img/left.svg" class="prev2_1" width="18" height="32" alt="left2" />
+            </div>
+            <div class="next2_2">
+                <img src="img/right.svg" class="next2_1" width="18" height="32" alt="right2" />
+            </div>
+        </div>
+
+
+        <div id="content2">
+            <div class="bannerBox"></div>
+            <h2><span class="bl">카페24</span>, 200만 쇼핑몰의 선택</h2>
+            <a href="#;">
+                <div id="circles1">
+                    <div class="content2_circle1">
+                        <div class="circle_box1"></div>
+                        <p>쇼핑몰 디자인</p>
+                        <img src="./img/design.png" alt="쇼핑몰디자인">
+                    </div>
+
+                    <div class="content2_circle2">
+                        <div class="circle_box2"></div>
+                        <p>도메인 등록</p>
+                        <img src="./img/design2.png" alt="도메인등록">
+                    </div>
+
+                    <div class="content2_circle3">
+                        <div class="circle_box3"></div>
+                        <p>무료 쇼핑몰 만들기</p>
+                        <img src="./img/design3.png" alt="무료쇼핑몰만들기">
+                    </div>
+
+                    <div class="content2_circle4">
+                        <div class="circle_box4"></div>
+                        <p>창업 공간</p>
+                        <img src="./img/design4.png" alt="창업공간">
+                    </div>
+
+                    <div class="content2_circle5">
+                        <div class="circle_box5"></div>
+                        <p>창업 교육</p>
+                        <img src="./img/design5.png" alt="창업교육">
+                    </div>
+                </div>
+
+            </a>
+            <h3>회원가입만 하면 <span class="bl">무료로 나만의 쇼핑몰</span>을 만들 수 있습니다. <br>
+                카페24가 제공하는 다양한 디자인과 편집을 이용하면 멋진 디자인도 순식간에 완성됩니다. </h3>
+        </div>
+
+
+        <div id="content3">
+            <h2>국내 <span class="blue">1위</span> 인프라</h2>
+            <h3><span class="blue">업계 최대 460Gbps급 백본망</span>과 28,000대 이상의 서버 운영 관리 노하우로 <br>
+                빠르고 안정적인 온라인 비즈니스 인프라를 구현합니다.</h3>
+            <button type="button" onclick="location.href='#;'">호스팅</button>
+        </div>
+
+
+        <div id="content4">
+            <div class="bannerBox"></div>
+            <h2>맞춤형 추천 서비스</h2>
+            <div id="circles2">
+                <div class="content4_circle1">
+                    <div class="circle_box6"></div>
+                    <p>업종별</p>
+                    <img src="./img/seller.png" alt="업종별">
+                </div>
+
+                <div class="content4_circle2">
+                    <div class="circle_box7"></div>
+                    <p>기업별</p>
+                    <img src="./img/company.png" alt="기업별">
+                </div>
+            </div>
+            <h3>카페24는 고객의 다양한 상황에 맞게 <span class="bl">맞춤형 추천 서비스</span>를 지원해드립니다.</h3>
+            <h3 class="mediah3">카페24는 고객의 다양한 상황에 맞게 <br><span class="bl">맞춤형 추천 서비스</span>를 지원해드립니다.</h3>
+        </div>
+    </section>
+
+    <footer class="cf">
+        <div id=footer_wrap>
+            <div id="footer_logo">
+                <a class="logo_gray" href="#;"><img src="./img/Cafe24_logo_gray.png" alt="로고"></a>
+
+
+            </div>
+            <div id="footer_write">
+                <p class="stylep">
+                    <a href="#none">회사소개</a>
+                    &nbsp; &nbsp; | &nbsp; &nbsp;
+                    <a href="#none">이용약관</a>
+                    &nbsp; &nbsp; | &nbsp; &nbsp;
+                    <a href="#none">개인정보처리방침</a>
+                    &nbsp; &nbsp; | &nbsp; &nbsp;
+                    <a href="#none">청소년보호정책</a>
+                    &nbsp; &nbsp; | &nbsp; &nbsp;
+                    <a href="#none">고객지원</a>
+                    &nbsp; &nbsp; | &nbsp; &nbsp;
+                    <a href="#none">제휴문의</a>
+                    &nbsp; &nbsp; | &nbsp; &nbsp;
+                    <a href="#none">논스톱</a>
+                    <br><br> <br>
+                    카페24(주)대표이사 : 이재석&nbsp; &nbsp; | &nbsp; &nbsp;소재지 : 서울특별시 동작구 보라매로 5길 15 (신대방동,전문건설회관) <br> <br>
+                    호스팅 고객센터 : 1588-3284&nbsp; &nbsp; | &nbsp; &nbsp;쇼핑몰 고객센터 : 1588-3413&nbsp; &nbsp; | &nbsp;
+                    &nbsp;전자우편 : hosting@cafe24corp.com <br> <br>
+                    사업자등록번호 : 118-81-20586&nbsp; &nbsp; | &nbsp; &nbsp;통신판매업신고 : 동작 제 02-680-078호&nbsp; &nbsp; | &nbsp;
+                    &nbsp;사업자 정보 확인 <br> <br>
+                    <span class="copy">Copyright &copy; Cafe24 Corp. All Right Reserved.</span>
+                </p>
+                <p class="mediap">
+                    <a href="#none">회사소개</a>
+                    <span class="footer_bc">&nbsp; | &nbsp;</span>
+                    <a href="#none">이용약관</a>
+                    <span class="footer_bc">&nbsp; | &nbsp;</span>
+                    <a href="#none">개인정보처리방침</a>
+                    <span class="footer_bc">&nbsp; | &nbsp;</span>
+                    <a href="#none">청소년보호정책</a>
+                    <span class="footer_bc">&nbsp; | &nbsp;</span>
+                    <a href="#none">고객지원</a>
+                    <span class="footer_bc"> &nbsp; | &nbsp;</span>
+                    <a href="#none">제휴문의</a>
+                    <span class="footer_bc">&nbsp; | &nbsp;</span>
+                    <a href="#none">논스톱</a>
+                    <br><br>
+                    카페24(주)대표이사 : 이재석 &nbsp; | &nbsp;소재지 : 서울특별시 동작구 보라매로 5길 15 (신대방동,전문건설회관) <br><br>
+                    호스팅 고객센터 : 1588-3284 &nbsp; | &nbsp; &nbsp;쇼핑몰 고객센터 : 1588-3413&nbsp; |
+                    &nbsp;전자우편 : hosting@cafe24corp.com <br> <br>
+                    사업자등록번호 : 118-81-20586&nbsp; | &nbsp; 통신판매업신고 : 동작 제 02-680-078호&nbsp; |
+                    &nbsp;사업자 정보 확인 <br> <br>
+
+
+
+                    <!-- <div class="footerdown">
+                        카페24(주)대표이사 : 이재석 &nbsp; | &nbsp;소재지 : 서울특별시 동작구 보라매로 5길 15 (신대방동,전문건설회관) <br><br>
+                        호스팅 고객센터 : 1588-3284 &nbsp; | &nbsp; &nbsp;쇼핑몰 고객센터 : 1588-3413&nbsp; |
+                        &nbsp;전자우편 : hosting@cafe24corp.com <br> <br>
+                        사업자등록번호 : 118-81-20586&nbsp; | &nbsp; 통신판매업신고 : 동작 제 02-680-078호&nbsp; |
+                        &nbsp;사업자 정보 확인 <br> <br>
+                        <span class="copy">Copyright &copy; Cafe24 Corp. All Right Reserved.</span>
+                    </div> -->
+                </p>
+                <div id="copyright">
+                    <p id="copy">Copyright &copy; Cafe24 Corp. All Right Reserved.
+                        <form id="footer_form">
+                            <p>
+                                <select name="Usercustomer">
+                                    <option>&nbsp;&nbsp;&nbsp;------
+                                    </option>
+                                    <option value="#">회사소개</option>
+                                    <option value="#">이용약관</option>
+                                    <option value="#">개인정보처리방침</option>
+                                    <option value="#">청소년보호정책</option>
+                                    <option value="#">고객지원</option>
+                                    <option value="#">제휴문의</option>
+                                    <option value="#">논스톱</option>
+
+                                </select>
+                            </p>
+                        </form>
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
